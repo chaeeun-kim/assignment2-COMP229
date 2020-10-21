@@ -1,9 +1,13 @@
 {
-  "name": "assignment1",
-  "version": "0.0.0",
+  "name": "assignment2",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
+  },
+  "engines": {
+    "node": "^12.18.3",
+    "npm": "^6.0.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.0",
@@ -31,5 +35,17 @@
     "@types/passport": "^1.0.4",
     "@types/passport-local": "^1.0.33",
     "@types/passport-local-mongoose": "^4.0.13"
-  }
+  },
+  "description": "demo app for amp229",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaeeun-kim/assignment2-COMP229.git"
+  },
+  "author": "chaeeun kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaeeun-kim/assignment2-COMP229/issues"
+  },
+  "homepage": "https://github.com/chaeeun-kim/assignment2-COMP229#readme"
 }
