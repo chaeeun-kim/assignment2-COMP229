@@ -1,4 +1,10 @@
 #!/usr/bin/env node
+/* file name: assignment2
+  student name: chaeeun kim
+  student id: 301060073
+  date:2020,10.21
+
+*/
 
 /**
  * Module dependencies.

@@ -19,7 +19,7 @@ module.exports.displayContactList = (req,res,next) =>{
         }
     });
     }
-
+//it will display updatepage when user click the updat button in the contact list
 module.exports.displayUpdatePage =(req,res,next)=>{
     let id=req.params.id;
 Contact.findById(id,(err,contactToUpdate)=>
@@ -33,6 +33,7 @@ res.render('contact/update',{title:'Update Contact', contact:contactToUpdate})
 }
 });
 }
+//it will update changes to dataabse
 
 module.exports.processUpadatePage =(req,res,next)=>
 {let id=req.params.id
@@ -42,6 +43,7 @@ let updateContact= Contact({
 "number":req.body.number,
 "email":req.body.email
 });
+
 
 Contact.updateOne({_id:id},updateContact,(err)=>{
 if(err)
@@ -55,6 +57,8 @@ res.redirect('/contacts-list');
 
 });
 }
+
+//it will perform to delete the selected data from database
 
 module.exports.performDelete = (req, res, next) => {
     let id = req.params.id;

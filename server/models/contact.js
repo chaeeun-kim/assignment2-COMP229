@@ -1,5 +1,5 @@
 let mongoose =require('mongoose');
-//this file is creating bookmodel
+
 //creat a MODEL class
 let contactModel= mongoose.Schema({
 name: String,
