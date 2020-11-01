@@ -34,7 +34,7 @@ console.log('Connected to MongoDB...');
 
 let indexRouter = require('../routes/index');
 let usersRouter = require('../routes/users');
-//set the routes for book
+//set the routes for contact
 let contactsRouter = require('../routes/contact');
 
 let app = express();

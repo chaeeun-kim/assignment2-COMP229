@@ -29,7 +29,7 @@ res.end(err);
 
 }
 else{
-res.render('contact/update',{title:'Update Contact', contact:contactToUpdate})
+res.render('/update',{title:'Update Contact', contact:contactToUpdate})
 }
 });
 }
